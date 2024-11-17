@@ -15,7 +15,7 @@ const { extractClientNumber, sendMessage, testInput } = require("./utils/utils.j
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// Connecting to database
+// Connecting to databas
 mongoose.connect(process.env.DB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
 // Database schema

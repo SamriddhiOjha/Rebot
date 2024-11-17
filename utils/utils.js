@@ -18,7 +18,7 @@ module.exports = {
         if (query[2].length !== 4) {    // Checking if time is not in HHMM format
             return false;
         }
-        if (query[3] && query[3] !== "today") {     // Checking if date-month is not in DD/MM format
+        if (query[3] && query[3] !== "today") {     // Checking if date-month is not in DD/MM forma
             if (query[3].split('/').length !== 2) {
                 return false;
             }
